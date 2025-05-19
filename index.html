@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telemedicina MVP</title>
+    <style>
+        :root {
+            --blue-neon: #00b7ff;
+            --emerald-neon: #50c878;
+            --bg-dark: #000;
+            --text-light: #e0e0e0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+        }
+
+        header {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            padding: 1rem;
+            text-align: center;
+            border-bottom: 2px solid var(--blue-neon);
+        }
+
+        h1, h2 {
+            color: var(--blue-neon);
+            text-shadow: 0 0 6px var(--emerald-neon);
+        }
+
+        nav a {
+            margin: 0 1rem;
+            color: var(--emerald-neon);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 1rem;
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        footer {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            text-align: center;
+            padding: 1rem;
+            border-top: 2px solid var(--emerald-neon);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Telemedicina MVP</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#funcionalidades">Funcionalidades</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <h2>Plataforma Independente de Teleatendimento</h2>
+            <p>
+                Telemedicina MVP é uma plataforma web que permite a médicos realizarem consultas online sem intermediários. 
+                O projeto oferece agendamento, pagamentos, videochamada e prontuário digital, pronto para ser escalado em modelo SaaS.
+            </p>
+        </section>
+        <section id="funcionalidades">
+            <h2>Principais Features</h2>
+            <ul>
+                <li>Cadastro e autenticação de médicos e pacientes</li>
+                <li>Agenda online com sistema de marcação de consultas</li>
+                <li>Videoconferência integrada via Jitsi Meet</li>
+                <li>Pagamentos automáticos (Stripe ou Mercado Pago)</li>
+                <li>Prontuário eletrônico simplificado</li>
+            </ul>
+        </section>
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <p>Quer contribuir, investir ou licenciar a plataforma? Entre em contato pelo e-mail ou Instagram indicados no README.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Telemedicina MVP. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

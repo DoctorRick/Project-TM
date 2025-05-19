@@ -38,6 +38,12 @@ Aqui vai um **README profissional e completo**, adaptado ao padrão de um projet
 
 ---
 
+## 📄 Página Inicial
+
+Abra `index.html` em qualquer navegador para visualizar a página principal estática do projeto. A página usa dark mode com detalhes em azul e verde esmeralda em estilo "neon", apresentando um resumo das funcionalidades e links de contato.
+
+---
+
 ## 📦 **Instalação Local (Desenvolvimento)**
 
 Pré-requisitos:
